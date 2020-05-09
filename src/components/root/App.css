@@ -1,0 +1,129 @@
+.header-color{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .header-color a {
+    font-family: 'Oxygen',sans-serif;
+    font-weight: bold;
+  }
+  .landing-grid{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    
+  }
+  .landing-main{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+    height: 100%;
+    margin:auto;
+  
+  }
+  .drawer-color{
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .avatar-img{
+    height: 230px;
+    border-radius: 50%;
+  }
+  .banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    height: auto;
+    margin:auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .banner-text h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+  }
+  .banner-text hr{
+   border-top: 5px dotted white;
+   width: 50%;
+   margin :auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding:1em;
+    text-align: center;
+  }
+  .social-links{
+    color:white;
+    width: 50%;
+    display: inline-flex;
+    text-align: center;
+  }
+
+  
+  .banner-text img{
+    color:white;
+    font-size: 10em;;
+    margin-right: 5rem;
+    padding:16px;
+    
+  }
+  
+  .contact-body{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2em;
+  }
+  .contact-grid{
+  
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height:100%;
+    background-color:white;
+    color:black;
+    margin-top: 100px;
+  }
+  .contact-grid h2{
+    font-family:'Anton',sans-serif;
+  }
+  .contact-grid p{
+    font-family: 'Oxygen',sans-serif;
+    font-weight: bold;
+  }
+  .contact-grid hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list{
+    font-size: 25px;
+    padding-right: 5rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .list-itemcontent{
+    font-size: 25px;
+    font-family: 'Anton',sans-serif;
+  }
+  .footer{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  .navbar{
+    background-color: black;
+  }
+  
+  

@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "OnurAltuntasDev",
+      "image": "https://i1.wp.com/stickker.net/wp-content/uploads/2016/02/react-black.png?resize=300%2C300&ssl=1",
+      "explanation": "This is my portfolio site with react.js",
+      "showLink": "https://github.com/OnurAltuntas/MyPortfolioSite"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "FakeSticker.net",
+      "image": "https://i1.wp.com/stickker.net/wp-content/uploads/2016/02/react-black.png?resize=300%2C300&ssl=1",
+      "explanation": "This is fakeSticker.net site with react.js",
+      "showLink": "https://github.com/OnurAltuntas/fakestickernet"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "productName": "Empty",
+      "image": "https://i1.wp.com/stickker.net/wp-content/uploads/2016/02/react-black.png?resize=300%2C300&ssl=1",
+      "explanation": "Empty",
+      "showLink": "https://github.com/OnurAltuntas/MyPortfolioSite"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "productName": "Empty",
+      "image": "https://i2.wp.com/stickker.net/wp-content/uploads/2017/01/vue.png?resize=300%2C300&ssl=1",
+      "explanation": "Empty",
+      "showLink": "https://github.com/OnurAltuntas/MyPortfolioSite"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "productName": "Empty",
+      "image": "https://i2.wp.com/stickker.net/wp-content/uploads/2017/01/vue.png?resize=300%2C300&ssl=1",
+      "explanation": "Empty",
+      "showLink": "https://github.com/OnurAltuntas/MyPortfolioSite"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "productName": "Empty",
+      "image": "https://i2.wp.com/stickker.net/wp-content/uploads/2017/01/vue.png?resize=300%2C300&ssl=1",
+      "explanation": "Empty",
+      "showLink": "https://github.com/OnurAltuntas/MyPortfolioSite"
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "productName": "LearnGermanDaily",
+      "image": "https://i0.wp.com/stickker.net/wp-content/uploads/2016/01/android-logo.png.png?resize=324%2C324&ssl=1",
+      "explanation": "This is german language learning app with android",
+      "showLink": "https://github.com/OnurAltuntas/Learn_German_Words_Daily"
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "productName": "EsogüDailyNotes",
+      "image": "https://i0.wp.com/stickker.net/wp-content/uploads/2016/01/android-logo.png.png?resize=324%2C324&ssl=1",
+      "explanation": "This is my university note sharing app with android",
+      "showLink": "https://github.com/OnurAltuntas/EsoguDailyNotes"
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "productName": "Brightio",
+      "image": "https://i0.wp.com/stickker.net/wp-content/uploads/2016/01/android-logo.png.png?resize=324%2C324&ssl=1",
+      "explanation": "This is my new android app.It is still in development process",
+      "showLink": ""
+    }
+    
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "React",
+      "seoUrl": "React"
+    },
+    {
+      "id": 2,
+      "categoryName": "Vue",
+      "seoUrl": "Vue"
+    },
+    {
+      "id": 3,
+      "categoryName": "Android",
+      "seoUrl": "Android"
+    }
+  ]
+}
