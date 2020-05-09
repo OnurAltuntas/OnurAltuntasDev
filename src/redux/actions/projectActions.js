@@ -12,7 +12,7 @@ export const createProject = (project) => {
             alertify.success('Project is Added');
         }).catch((err)=>{
             dispatch({type:'CREATE_PROJECT_ERROR'},err)
-            alertify.success('Something is wrong please try later');
+            alertify.error('Something is wrong please try later');
         })
     }
 };

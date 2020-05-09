@@ -1,28 +1,18 @@
 import React, { Component } from 'react'
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl'
 import "../root/App.css"
+import alertify from "alertifyjs"
+
 
 class Contact extends Component {
-    constructor() {
-        super();
     
-        this.onSuccess = this.onSuccess.bind(this);
-        this.getText = this.getText.bind(this);
-      }
-
-      onSuccess() {
-        console.info('successfully copied');
-      }
-    
-      getText() {
-        return 'I\'ll be copied';
-      }
 
     handleClick = () => {
         var copyText = document.getElementById("myInput");
         copyText.select();
         copyText.setSelectionRange(0, 99999)
         document.execCommand("copy");
+        alertify.success('Copied',1.5);
     }
 
     render() {
@@ -59,8 +49,7 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent className="list-itemcontent" >
                                         <i onClick={this.handleClick} style={{ fontSize: "50px", paddingRight: "5rem" }} className="fa fa-envelope" aria-hidden="true" />
-                                        <input type="text" value="onuraltuntas50@gmail.com" id="myInput"></input>
-                                      
+                                        <input type="text" value="onuraltuntas50@gmail.com" id="myInput" readonly></input>
                                     </ListItemContent>
                                 </ListItem>
                             </List>
