@@ -28,15 +28,15 @@ const rrfProps = {
 
 
 ReactDOM.render(
-  <React.StrictMode>
+ 
     <BrowserRouter>
       <Provider store={store}>
         <ReactReduxFirebaseProvider {...rrfProps}>
           <App />
         </ReactReduxFirebaseProvider>
       </Provider>
-    </BrowserRouter>
-  </React.StrictMode>,
+    </BrowserRouter>,
+ 
   document.getElementById('root')
 )
 
