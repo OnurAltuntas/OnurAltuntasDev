@@ -78,8 +78,6 @@ class LandingPage extends Component {
                                 <a href="https://github.com/OnurAltuntas" rel="noopener noreferrer" target="_blank">
                                     <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/png/512/733/733553.png" alt="Linkedin"></img>
                                 </a>
-                               
-                               
                             </div>
                         </div>
                     </Cell>
