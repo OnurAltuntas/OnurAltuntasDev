@@ -66,16 +66,16 @@ class LandingPage extends Component {
                             <hr></hr>
                             <p>HTML/CSS | JavaScript | NodeJS | React | Android | C# | Asp.net | Firebase </p>
                             <div>
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://tr.linkedin.com/in/onur-altunta%C5%9F-2103a319a" rel="noopener noreferrer" target="_blank">
                                 <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="Linkedin"></img>
                                 </a>
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://twitter.com/beyhudedolanik" rel="noopener noreferrer" target="_blank">
                                 <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="Linkedin"></img>
                                 </a>
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.youtube.com/channel/UCalJQ45NyMzMvPqK5n0xYEA/" rel="noopener noreferrer" target="_blank">
                                 <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/svg/174/174883.svg" alt="Linkedin"></img>
                                 </a>
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/OnurAltuntas" rel="noopener noreferrer" target="_blank">
                                     <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/png/512/733/733553.png" alt="Linkedin"></img>
                                 </a>
                                
