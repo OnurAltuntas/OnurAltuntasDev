@@ -23,7 +23,7 @@ class Product extends Component {
                                     <CardBody>
                                         <CardText >
                                         </CardText>
-                                        <CardTitle>{product.productName}</CardTitle>
+                                        <CardTitle>dsafasf</CardTitle>
                                         <CardSubtitle>  {product.explanation}</CardSubtitle><br></br>
                                         <Button  href={product.showLink}>
                                         Show</Button>

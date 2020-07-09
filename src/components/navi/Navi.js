@@ -5,49 +5,67 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-
+  Row, Col,
+  Container,
   Nav,
   NavItem,
   NavLink,
-  
+
 } from 'reactstrap';
 
 const Navi = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
 
-  const toggle = () => setIsOpen(!isOpen);
+  const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
     <div>
-      <Navbar className="header-color" color="light" light expand="md">
-        <NavLink ><Link to="/" style={{ textDecoration: 'none',color:'white' }} >OnurAltuntasDev</Link></NavLink>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+      <Navbar color="dark" light expand="md">
+        <NavLink ><Link to="/" className="navlinks">OnurAltuntasDev</Link></NavLink>
+        <NavbarToggler onClick={toggleNavbar} />
+        <Collapse className='collapse' isOpen={!collapsed} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="https://tr.reactjs.org/" style={{ textDecoration: 'none',color:'white' }}>React.js</NavLink>
+              <NavLink ><a className="navlinks" href="https://tr.reactjs.org/">React.js</a></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/OnurAltuntas" style={{ textDecoration: 'none',color:'white' }}>GitHub</NavLink>
+              <NavLink ><a className="navlinks" href="https://github.com/OnurAltuntas">Github</a></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link className="navlinks" to="/adminpanel" >Admin Panel</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link className="navlinks" to="/aboutme" >About me</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link className="navlinks" to="/projects" >Projects</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link className="navlinks" to="/resume" >Resume</Link></NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink><Link className="navlinks" to="/contact" >Contact</Link></NavLink>
             </NavItem>
           </Nav>
-          <Nav>
-            <NavItem>
-              <NavLink><Link to="/adminpanel" style={{ textDecoration: 'none',color:'white' }}>Admin Panel</Link></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink><Link to="/aboutme" style={{ textDecoration: 'none',color:'white' }}>About me</Link></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink><Link to="/projects" style={{ textDecoration: 'none',color:'white' }}>Projects</Link></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink><Link to="/resume" style={{ textDecoration: 'none',color:'white' }}>Resume</Link></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink><Link to="/contact" style={{ textDecoration: 'none',color:'white' }}>Contact</Link></NavLink>
-            </NavItem>
-          </Nav>
+          <div>
+           
+              <Row>
+                <Col><a href="https://tr.linkedin.com/in/onur-altunta%C5%9F-2103a319a" rel="noopener noreferrer" target="_blank">
+                  <img style={{ height: "2rem" }} src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="Linkedin"></img>
+                </a></Col>
+                <Col> <a href="https://twitter.com/beyhudedolanik" rel="noopener noreferrer" target="_blank">
+                  <img style={{ height: "2rem" }} src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="Linkedin"></img>
+                </a></Col>
+                <Col> <a href="https://www.youtube.com/channel/UCalJQ45NyMzMvPqK5n0xYEA/" rel="noopener noreferrer" target="_blank">
+                  <img style={{ height: "2rem" }} src="https://image.flaticon.com/icons/svg/174/174883.svg" alt="Linkedin"></img>
+                </a></Col>
+                <Col> <a href="https://github.com/OnurAltuntas" rel="noopener noreferrer" target="_blank">
+                  <img style={{ height: "2rem" }} src="https://image.flaticon.com/icons/png/512/733/733553.png" alt="Linkedin"></img>
+                </a></Col>
+              </Row>
+           
+
+          </div>
         </Collapse>
       </Navbar>
     </div>

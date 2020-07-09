@@ -1,12 +1,125 @@
+
+
+.footer-links{
+  margin-left: 10px;
+  color:black;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+.footer-links:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.collapse{
+  text-align: center;
+}
+#menu {
+  transition: height 1.5s ease;
+}
+
+.navlinks:hover {
+  color: red;
+  transition: color 0.3s;
+  text-decoration: none;
+  
+}
+
+.header-center h3 {
+  text-shadow: 0px 1px 1px #ffffff;
+  text-align: center;
+}
+.navlinks {
+  color: #fff;
+  text-decoration: none;
+}
+
+.face {
+  width: 100%;
+  position: relative;
+
+}
+.face .face-img {
+  width: 100%;
+  height: auto;
+}
+.face a {
+  color: #666666;
+  text-decoration: none;
+}
+.face .coder,
+.face .designer {
+  position: absolute;
+  width: 40%;
+  display: block;
+  z-index: 10;
+  height: 15%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.face .coder h1,
+.face .designer h1 {
+  font-size: 28px;
+  font-size: 2.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.face .designer {
+  left: 0;
+}
+.face .coder {
+  right: 0;
+  text-align: right;
+}
+.face .designer-img,
+.face .coder-img,
+.face .designer-bg,
+.face .coder-bg,
+.face .coder p,
+.face .designer p {
+  display: none;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+.back-to-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color:rgb(52,58,64);
+  padding: 0.25rem;
+  display: block;
+  position: absolute;
+  left: 50%;
+}
+.sign{
+  display: inline-block;
+  display: block;
+  position: absolute;
+  left: 50%;
+  
+}
+
+
+
+
 .header-color{
     background: #fe8c00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  .header-color a {
-    font-family: 'Oxygen',sans-serif;
-    font-weight: bold;
-  }
+
   .landing-grid{
     background: #fe8c00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
@@ -116,14 +229,12 @@
     font-size: 25px;
     font-family: 'Anton',sans-serif;
   }
-  .footer{
-    background: #fe8c00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-  }
-  .navbar{
-    background-color: black;
+ 
+ 
+
+  @fontface {
+    font-family: 'Titillium';
+    src: url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap')
   }
   
   

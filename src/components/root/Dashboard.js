@@ -1,89 +1,53 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Footer, FooterSection, FooterDropDownSection, FooterLinkList } from 'react-mdl';
 import "../root/App.css"
-
-function bottomBar() {
-    return (
-        <div className="footer">
-            <Footer size="mega">
-                <FooterSection type="middle">
-                    <FooterDropDownSection title="Features">
-                        <FooterLinkList>
-                            <a href="/">About</a>
-                            <a href="/">Terms</a>
-                            <a href="/">Partners</a>
-                            <a href="/">Updates</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                    <FooterDropDownSection title="Details">
-                        <FooterLinkList>
-                            <a href="/">Specs</a>
-                            <a href="/">Tools</a>
-                            <a href="/">Resources</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                    <FooterDropDownSection title="Technology">
-                        <FooterLinkList>
-                            <a href="/">How it works</a>
-                            <a href="/">Patterns</a>
-                            <a href="/">Usage</a>
-                            <a href="/">Products</a>
-                            <a href="/">Contracts</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                    <FooterDropDownSection title="FAQ">
-                        <FooterLinkList>
-                            <a href="/">Questions</a>
-                            <a href="/">Answers</a>
-                            <a href="/">Contact Us</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                </FooterSection>
-                <FooterSection type="bottom" logo="Title">
-                    <FooterLinkList>
-                        <a href="/">Help</a>
-                        <a href="/">Privacy & Terms</a>
-                    </FooterLinkList>
-                </FooterSection>
-            </Footer>
-        </div>
-    )
-}
+import BottomFooter from '../common/BottomFooter';
 
 class LandingPage extends Component {
 
     render() {
         return (
-            <div className="landing-main">
-                <Grid className="landing-grid">
-                    <Cell col={12}>
-                        <img className="avatar-img"
-                            src="https://avatars0.githubusercontent.com/u/53194850?s=460&u=88ff0b9c8fe41c908d3c9b7ff43eb00dba669e66&v=4"
-                            alt="avatar"
-                        />
-                        <div className="banner-text">
-                            <h1>Web and Mobile Developer</h1>
-                            <hr></hr>
-                            <p>HTML/CSS | JavaScript | NodeJS | React | Android | C# | Asp.net | Firebase </p>
-                            <div>
-                                <a href="https://tr.linkedin.com/in/onur-altunta%C5%9F-2103a319a" rel="noopener noreferrer" target="_blank">
-                                <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="Linkedin"></img>
+
+            <div className="main">
+                <section class="light nopad-t nopad-b">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="face" class="face">
+                                <a href="/Resume">
+                                    <div id="designer" class="designer">
+                                        <div id="designer-desc" class="description">
+                                            <h1>mobile dev</h1>
+                                            <p>UI/UX Designer with a passion for designing beautiful and functional user experiences.</p>
+                                        </div>
+                                    </div>
                                 </a>
-                                <a href="https://twitter.com/beyhudedolanik" rel="noopener noreferrer" target="_blank">
-                                <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="Linkedin"></img>
+                                <a href="/about">
+                                    <div id="coder" class="coder">
+                                        <div id="coder-desc" class="description">
+                                            <h1>web dev</h1>
+                                            <p>Front End Developer who focuses on writing clean, elegant and efficient code.</p>
+                                        </div>
+                                    </div>
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCalJQ45NyMzMvPqK5n0xYEA/" rel="noopener noreferrer" target="_blank">
-                                <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/svg/174/174883.svg" alt="Linkedin"></img>
-                                </a>
-                                <a href="https://github.com/OnurAltuntas" rel="noopener noreferrer" target="_blank">
-                                    <img style={{height:"5rem"}} src="https://image.flaticon.com/icons/png/512/733/733553.png" alt="Linkedin"></img>
-                                </a>
+
+                                <img id="face-img" class="face-img" src="http://www.adhamdannaway.com/wp-content/themes/dannaway/images/adham-dannaway-designer-coder.jpg" alt="adham dannaway ui designer" />
+                                <div id="designer-img" class="designer-img"></div>
+                                <div id="coder-img" class="coder-img"></div>
+                                <div id="designer-bg" class="designer-bg"></div>
+                                <div id="coder-bg" class="coder-bg"></div>
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
-                {bottomBar()}
+                    </div>
+                </section>
+              
+
+                <div class="header-center"><h3>Some of my latest work</h3></div>
+                <div>
+                    
+                </div>
+                <BottomFooter />
             </div>
+            
         )
     }
 }
