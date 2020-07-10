@@ -1,25 +1,11 @@
-
-/* .fade-appear
-.fade-enter{
-  opacity: 0;
-  z-index: 1;
+.section.main {
+  overflow: hidden;
+  border-top: #FFF solid 1px;
+  padding: 3em 1.5em;
 }
-.fade-appear-active
-.fade-enter.fade-enter-active{
-  opacity: 1;
-  transition: opacity 300ms linear 150ms;
-}
-
-.fade-exit{
-  opacity: 1;
-}
-
-.face-exit.face-exit-active{
-  opacity: 0;
-  transition: opacity 1500ms linear;
-} */
 
 .ajs-message.ajs-custom { color: #31708f;  background-color: #d9edf7;  border-color: #31708f; }
+
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -196,7 +182,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background-color:rgb(52,58,64);
+  background-color :#fff;
   padding: 0.25rem;
   display: block;
   position: absolute;

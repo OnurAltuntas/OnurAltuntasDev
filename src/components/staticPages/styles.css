@@ -1,0 +1,124 @@
+  .container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  @media only screen and (min-width:992px) {
+	
+    .box {
+        width:auto;
+        height:auto;
+        color:#fff;
+        font-family: Arial;
+        margin:0 auto;
+        margin-top:30px;
+        padding:20px
+    }
+    
+    }
+    
+    @media only screen and (min-width:676px) and (max-width:992px) {
+        
+        .phone {
+            width:60px;
+            height:auto;
+            color:#fff;
+        }
+        .laptop{
+            width:320px;
+            height:auto;
+            color:#fff;
+        }
+        .tablet{
+            width:110px;
+            height:auto;
+            color:#fff;
+        }
+}
+   
+    
+    @media only screen and (max-width:676px) {
+        
+        .phone {
+            width:60px;
+            height:auto;
+            color:#fff;
+        }
+        .laptop{
+            width:320px;
+            height:auto;
+            color:#fff;
+        }
+        .tablet{
+            width:110px;
+            height:auto;
+            color:#fff;
+        }
+
+}
+
+@media only screen and (max-width:634px) {
+        
+    .phone {
+        width:50px;
+        height:auto;
+        color:#fff;
+    }
+    .laptop{
+        width:280px;
+        height:auto;
+        color:#fff;
+    }
+    .tablet{
+        width:80px;
+        height:auto;
+        color:#fff;
+    }
+
+}
+
+@media only screen and (max-width:440px) {
+        
+    .phone {
+        width:50px;
+        height:auto;
+        color:#fff;
+    }
+    .laptop{
+        width:280px;
+        height:auto;
+        color:#fff;
+    }
+    .tablet{
+        width:80px;
+        height:auto;
+        color:#fff;
+    }
+}
+
+@media only screen and (max-width:440px) {
+        
+    .phone {
+        width:30px;
+        height:auto;
+        color:#fff;
+    }
+    .laptop{
+        width:200px;
+        height:auto;
+        color:#fff;
+    }
+    .tablet{
+        width:50px;
+        height:auto;
+        color:#fff;
+    }
+}
+    
+    
+ 
+ 
+  

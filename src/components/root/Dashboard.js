@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Footer, FooterSection, FooterDropDownSection, FooterLinkList } from 'react-mdl';
 import "../root/App.css"
 import BottomFooter from '../common/BottomFooter';
 
-class LandingPage extends Component {
+const LandingPage = () => {
 
-    render() {
         return (
 
             <div className="page">
@@ -46,13 +44,9 @@ class LandingPage extends Component {
                     
                 </div>
                 <BottomFooter />
-
-                
-
                 
             </div>
             
         )
-    }
 }
 export default LandingPage;

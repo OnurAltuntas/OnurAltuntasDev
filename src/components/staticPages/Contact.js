@@ -6,8 +6,6 @@ import "../root/App.css"
 class Contact extends Component {
     
 
-    
-
     render() {
         return (
             <div className="contact-body">

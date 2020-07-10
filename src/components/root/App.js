@@ -9,10 +9,22 @@ import Contact from "../staticPages/Contact";
 import NotFound from '../common/NotFound';
 import AddOrUpdateProduct from '../products/AddOrUpdateProduct';
 import AdminPanel from '../../admin/AdminPanel';
+import {useSpring,animated} from 'react-spring'
+
 
 function App() {
+
+  const fade = useSpring({
+    from : {
+      opacity : 0
+    },
+    to:{
+      opacity : 1
+  }
+  });
+
   return (
-    <div>
+    <animated.div style={fade}>
     <Navi/>
       <Switch>
         <Route path ="/" exact component={Dashboard} />
@@ -24,7 +36,7 @@ function App() {
         <Route path ="/contact" exact component={Contact} />
         <Route  exact component={NotFound} />
       </Switch>
-    </div>
+    </animated.div>
   );
 }
 
