@@ -8,7 +8,7 @@ class LandingPage extends Component {
     render() {
         return (
 
-            <div className="main">
+            <div className="page">
                 <section class="light nopad-t nopad-b">
                     <div class="row">
                         <div class="col-12">
@@ -46,6 +46,10 @@ class LandingPage extends Component {
                     
                 </div>
                 <BottomFooter />
+
+                
+
+                
             </div>
             
         )

@@ -6,6 +6,9 @@ import {
     Card, CardImg, CardText, CardBody, CardTitle,
     CardSubtitle, Button, Row, Container, Col,
 } from 'reactstrap';
+import "../root/App.css"
+import BottomFooter from '../common/BottomFooter';
+
 
 class Product extends Component {
     componentDidMount() {
@@ -14,25 +17,29 @@ class Product extends Component {
     render() {
         return (
             <div>
+            
                 <Container>
                     <Row xs="3">
                         {this.props.products.map(product => (
-                            <Col>
-                                <Card>
-                                    <CardImg top width="100%" src={product.image} id="UncontrolledTooltipExample" alt="Card image cap" />
-                                    <CardBody>
-                                        <CardText >
-                                        </CardText>
-                                        <CardTitle>dsafasf</CardTitle>
-                                        <CardSubtitle>  {product.explanation}</CardSubtitle><br></br>
-                                        <Button  href={product.showLink}>
-                                        Show</Button>
-                                    </CardBody>
-                                </Card>
+                            <Col >
+                            <div class="cards-list">
+  
+                            <div class="card 1">
+                              <div class="card_image"> <img src={product.img} /> </div>
+                              <div class="card_title title-white">
+                                <p>{product.title}</p>
+                              </div>
+                              <Button  href={product.showLink}>
+                              Show</Button>
+                            </div>
+                            
+                            </div>
                             </Col>
                         ))}
                     </Row>
                 </Container>
+              
+                <BottomFooter/>
             </div>
         )
     }
