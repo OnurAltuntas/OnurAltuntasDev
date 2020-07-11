@@ -8,17 +8,25 @@
 
   @media only screen and (min-width:992px) {
 	
-    .box {
-        width:auto;
+    .phone {
+        width:120px;
         height:auto;
         color:#fff;
-        font-family: Arial;
-        margin:0 auto;
-        margin-top:30px;
-        padding:20px
+    }
+    .laptop{
+        width:600px;
+        height:auto;
+        color:#fff;
+    }
+    .tablet{
+        width:180px;
+        height:auto;
+        color:#fff;
     }
     
     }
+
+   
     
     @media only screen and (min-width:676px) and (max-width:992px) {
         

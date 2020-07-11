@@ -4,6 +4,33 @@ import "../root/App.css"
 
 
 function bottomBar() {
+
+     const footerStyle = {
+        backgroundColor: "#343A40",
+        fontSize: "20px",
+        color: "white",
+        borderTop: "1px solid #E7E7E7",
+        textAlign: "center",
+        position: "fixed",
+        left: "0",
+        bottom: "0",
+
+        width: "100%"
+    };
+
+    const phantomStyle = {
+        display: "block",
+        width: "100%"
+    };
+
+    function Footer({ children }) {
+        return (
+            <div>
+                <div style={phantomStyle} />
+                <div style={footerStyle}>{children}</div>
+            </div>
+        );
+    }
     return (
         <div className="footer">
             <Footer size="mega">

@@ -57,17 +57,15 @@ const Navi = (props) => {
             <NavItem>
               <NavLink><Link className="navlinks" to="/resume" >Resume</Link></NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink><Link className="navlinks" to="/contact" >Contact</Link></NavLink>
-            </NavItem>
+            <input style={{opacity:'0.0'}} type="text" value="onuraltuntas50@gmail.com" id="myInput" readonly></input>                    
+           
           </Nav>
           <div>
            
               <Row>
               <Col>
               
-              <i title="click to copy my email" onClick={handleClick} style={{ fontSize: "30px",color:'#D8D1D1'}} className="fa fa-envelope" aria-hidden="true" />
-                                     
+              <i id="mail" title="click to copy my email" onClick={handleClick} style={{ fontSize: "30px",color:'#D8D1D1'}} className="fa fa-envelope" aria-hidden="true" />
               </Col>
                 <Col><a href="https://tr.linkedin.com/in/onur-altunta%C5%9F-2103a319a" rel="noopener noreferrer" target="_blank">
                   <img title="my linkedin address " style={{ height: "2rem" }} src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="Linkedin"></img>
@@ -88,7 +86,7 @@ const Navi = (props) => {
           </div>
         </Collapse>
       </Navbar>
-      <input style={{opacity:'0.0'}} type="text" value="onuraltuntas50@gmail.com" id="myInput" readonly></input>
+      
       </div>
   );
 }
