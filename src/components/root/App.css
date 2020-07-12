@@ -78,16 +78,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   
 }
 
-@media only screen and (min-width:1px) and (max-width:1508px) {
-        
-  .face .designer h1 {
-    font-size: 1px;
-    color:#fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-  }
-  
-}
+
 
 
 .navlinks {
@@ -177,14 +168,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   top: 0;
   bottom: 0;
 }
-.face .coder h1,
-.face .designer h1 {
-  font-size: 18px;
-  color:#fff;
-  font-size: 2.2rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-}
+
 .face .designer {
   left: 0;
 }
@@ -375,6 +359,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     background: url('./cool-background.png'); 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
     
   }
@@ -536,11 +521,134 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
   }
+  .coder-desc{
+    font-size: 18px;
+   color:#000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
 
   .project-tabs{
     text-align:center;
     font-size:24px;
   }
+
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: 2.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+ 
+
+   
+    
+    @media only screen and (min-width:759px) and (max-width:992px) {
+        
+      .face .coder h1,
+      .face .designer h1 {
+        font-size: 18px;
+        color:#000;
+        font-size: 2.2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+}
+   
+    
+    @media only screen and (min-width:735px) and (max-width:759) {
+      .face .coder h1,
+      .face .designer h1 {
+        font-size: 18px;
+        color:#000;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+
+}
+@media only screen and (min-width:634px) and (max-width:735px) {
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width:501px) and (max-width:634px) {
+        
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width:440px) and (max-width:501px) {
+        
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:440px) {
+        
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+}
+@media only screen and (min-width:300px) and (max-width:360px) {
+        
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: .8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width:0px) and (max-width:300px) {
+        
+  .face .coder h1,
+  .face .designer h1 {
+    font-size: 18px;
+    color:#000;
+    font-size: .6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+}
+    
+    
+    
+ 
+ 
+  
   
 
   

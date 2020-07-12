@@ -34,14 +34,12 @@ const Navi = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" light expand="md">
+      <Navbar color="dark" light >
         <NavLink ><Link to="/" className="navlinks">OnurAltuntasDev</Link></NavLink>
-        <NavbarToggler onClick={toggleNavbar} />
+        <NavbarToggler onClick={toggleNavbar}  className="mr-2" />
         <Collapse className='collapse' isOpen={!collapsed} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink ><a className="navlinks" href="https://tr.reactjs.org/">React.js</a></NavLink>
-            </NavItem>
+           
             <NavItem>
               <NavLink ><a className="navlinks" href="https://github.com/OnurAltuntas">Github</a></NavLink>
             </NavItem>
@@ -52,7 +50,7 @@ const Navi = (props) => {
               <NavLink><Link className="navlinks" to="/aboutme" >About me</Link></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink><Link className="navlinks" to="/projects" >Projects</Link></NavLink>
+              <NavLink><Link className="navlinks" to="/projects" >Portfolio</Link></NavLink>
             </NavItem>
             <NavItem>
               <NavLink><Link className="navlinks" to="/resume" >Resume</Link></NavLink>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "../root/App.css"
 import BottomFooter from '../common/BottomFooter';
 import { useSpring, animated } from 'react-spring'
+import foto from './web-foto.png';
 
 
 const LandingPage = () => {
@@ -31,15 +32,15 @@ const LandingPage = () => {
                             </a>
                             <a href="/about">
                                 <div id="coder" class="coder">
-                                    <div id="coder-desc" class="description">
-                                        <h1 >I'm a software developer based in Eskisehir, Turkey.
+                                    <div  class="description">
+                                        <h1 className="coder-desc" >I'm a software developer based in Eskisehir, Turkey.
                                         I am recently working on Frontend web development.</h1>
                                         <p>Front End Developer who focuses on writing clean, elegant and efficient code.</p>
                                     </div>
                                 </div>
                             </a>
 
-                            <img id="face-img" class="face-img" src="http://www.adhamdannaway.com/wp-content/themes/dannaway/images/adham-dannaway-designer-coder.jpg" alt="adham dannaway ui designer" />
+                            <img id="face-img" class="face-img" src={foto} />
                             <div id="designer-img" class="designer-img"></div>
                             <div id="coder-img" class="coder-img"></div>
                             <div id="designer-bg" class="designer-bg"></div>
