@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import "../root/App.css"
 import { useSpring, animated } from 'react-spring'
 import "./styles.css";
@@ -39,7 +39,7 @@ const Aboutme = () => {
     });
 
     return (
-        <animated.div style={fade}>
+        <animated.div className=".container-fluid" style={fade}>
 
             {!greetingStatus ? (
                 <div>Click button below</div>
@@ -59,7 +59,7 @@ const Aboutme = () => {
                          React.js  websites</h3>
                         </div>
 
-                        <div class="conatiner">
+                        <div class="conatiner-fluid">
                             <div class="wrap">
 
                                 <div class="box one">
@@ -88,23 +88,16 @@ const Aboutme = () => {
                                         <h4>✓</h4>
                                     </div>
                                 </div>
-
-
-
                             </div>
-
                         </div>
-
                         <br></br>
-
                     </div>
                 )}
            
             
             <h3 className="about-exp">Skills React.js </h3>
-            <BottomFooter />
 
-            <div className="container-fluid">
+            <div className="container-md">
             <div>
                 <div className="text-center">JavaScript</div>
                 <Progress value="90" />
@@ -134,6 +127,7 @@ const Aboutme = () => {
             </div>
         </div>
 
+        <BottomFooter />
 
         </animated.div>
     );

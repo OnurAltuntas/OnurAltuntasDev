@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import "../root/App.css"
 import BottomFooter from '../common/BottomFooter';
 import { useSpring, animated } from 'react-spring'
 import foto from './web-foto.png';
+
 
 
 const LandingPage = () => {
@@ -18,19 +19,14 @@ const LandingPage = () => {
 
 
     return (
-        <animated.div className="page" style={fade}>
-            <section class="light nopad-t nopad-b">
+        
+        <animated.div className=".container-fluid" style={fade}>
+            <section >
                 <div class="row">
                     <div class="col-12">
                         <div id="face" class="face">
-                            <a href="/Resume">
-                                <div id="designer" class="designer">
-                                    <div id="designer-desc" class="description">
-                                        <p>UI/UX Designer with a passion for designing beautiful and functional user experiences.</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="/about">
+                            
+                            <a href="/aboutme">
                                 <div id="coder" class="coder">
                                     <div  class="description">
                                         <h1 className="coder-desc" >I'm a software developer based in Eskisehir, Turkey.
@@ -40,11 +36,10 @@ const LandingPage = () => {
                                 </div>
                             </a>
 
-                            <img id="face-img" class="face-img" src={foto} />
-                            <div id="designer-img" class="designer-img"></div>
-                            <div id="coder-img" class="coder-img"></div>
-                            <div id="designer-bg" class="designer-bg"></div>
-                            <div id="coder-bg" class="coder-bg"></div>
+                            <img id="face-img" alt="face" class="face-img" src={foto} />
+                           
+                           
+                            
                         </div>
                     </div>
                 </div>
@@ -55,8 +50,41 @@ const LandingPage = () => {
             <div>
 
             </div>
+            <div class="conatiner-fluid">
+            <div class="wrap">
 
-            <BottomFooter />
+                <div class="box one">
+                    <div class="date">
+                    </div>
+                    <h1>WEBSITE DESIGN DEVELOPING</h1>
+                    <div class="poster p1">
+                        <h4>✓</h4>
+                    </div>
+                </div>
+
+                <div class="box two">
+                    <div class="date">
+                    </div>
+                    <h1>MOBILE APP DEVOLOPING</h1>
+                    <div class="poster p2" >
+                        <h4 >✓</h4>
+                    </div>
+                </div>
+
+                <div class="box three">
+                    <div class="date">
+                    </div>
+                    <h1>REACT JS AND REACT NATIVE</h1>
+                    <div class="poster p3">
+                        <h4>✓</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <BottomFooter/>
+
+         
+           
 
 
         </animated.div>

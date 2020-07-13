@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { connect } from 'react-redux'
 import { firestoreConnect } from 'react-redux-firebase'
 import { compose } from 'redux'
@@ -31,9 +31,10 @@ const AdminPanel = (props) => {
 
     if (user) {
         return (
-            <div>
-                <Container>
-                    <Form>
+            <div className="container-sm">
+            <h1 style={{textAlign:'center'}}>Admin Panel</h1>
+               
+                    <Form className="form">
                         <FormGroup>
                             <Label for="name">Name</Label>
                             <Input type="name" name="name" id="userName" placeholder="name" onChange={handleInputChange} />
@@ -44,7 +45,7 @@ const AdminPanel = (props) => {
                         </FormGroup>
                         <Button onClick={handleOnclik}>Submit</Button>
                     </Form>
-                </Container>
+             
             </div>
         )
     } else {

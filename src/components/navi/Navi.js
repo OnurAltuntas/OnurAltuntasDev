@@ -6,7 +6,6 @@ import {
   Navbar,
   NavbarToggler,
   Row, Col,
-  Container,
   Nav,
   NavItem,
   NavLink,
@@ -36,7 +35,7 @@ const Navi = (props) => {
     <div>
       <Navbar color="dark" light >
         <NavLink ><Link to="/" className="navlinks">OnurAltuntasDev</Link></NavLink>
-        <NavbarToggler onClick={toggleNavbar}  className="mr-2" />
+        <NavbarToggler onClick={toggleNavbar}  className="mr-2" style={{backgroundColor:'#fff'}} />
         <Collapse className='collapse' isOpen={!collapsed} navbar>
           <Nav className="mr-auto" navbar>
            

@@ -1,6 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import phone from '../../assets/res.png';
+import BottomFooter from '..//common/BottomFooter';
+
 
 
 const Resume = () => {
@@ -16,7 +18,8 @@ const Resume = () => {
     });
     return (
         <animated.div  className="resume" style={fade}>
-           <img src={phone}></img>
+           <img alt="phone" src={phone}></img>
+           <BottomFooter />
         </animated.div>
     )
 }
