@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import BottomFooter from '..//common/BottomFooter';
-import res from '../../assets/res.pdf';
+import res from '../../assets/res.png';
 
 
 
@@ -19,8 +19,10 @@ const Resume = () => {
     });
     return (
         <animated.div style={fade, { textAlign: 'center' }}>
-            
-            <iframe src={res} frameborder="0" height="600px" width="100%"></iframe>
+
+           
+                <iframe style={{ textAlign: 'center' }} src={res} width="100%" height="500px">  </iframe>
+           
 
             <BottomFooter />
         </animated.div>

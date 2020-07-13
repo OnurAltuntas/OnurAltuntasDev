@@ -29,7 +29,6 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 .card .card_image {
   width: inherit;
   height: inherit;
-  border-radius: 40px;
 }
 
 .card .card_image img {
