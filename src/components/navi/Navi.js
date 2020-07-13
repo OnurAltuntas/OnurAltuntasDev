@@ -33,7 +33,7 @@ const Navi = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" light >
+      <Navbar style={{backgroundColor:'black'}}  light >
         <NavLink ><Link to="/" className="navlinks">OnurAltuntasDev</Link></NavLink>
         <NavbarToggler onClick={toggleNavbar}  className="mr-2" style={{backgroundColor:'#fff'}} />
         <Collapse className='collapse' isOpen={!collapsed} navbar>

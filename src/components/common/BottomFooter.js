@@ -5,8 +5,8 @@ import "../root/App.css"
 const BottomFooter = (props) =>{
         return (
             <div className="footer">
-            <Footer size="mega">
-                <FooterSection type="middle">
+            <Footer size="mega" style={{backgroundColor:'#000'}}>
+                <FooterSection type="middle" >
                 <div style={{ margin: '50px' }}>
 
                 <ul style={{ display: 'flex', justifyContent: 'center' }}>
@@ -16,7 +16,9 @@ const BottomFooter = (props) =>{
                     <a className='footer-links' href="/Projects">portfolio</a>
                     
                 </ul>
-               
+                <div class="gradient-white">
+                        <a className="back-to-top-link" href="#"><i class="fa fa-arrow-up" aria-hidden="true" style={{ fontSize: '24px', color: 'red' }}></i></a>
+                    </div>
             </div>
                 </FooterSection>
             </Footer>
