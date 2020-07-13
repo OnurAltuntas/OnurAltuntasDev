@@ -113,6 +113,10 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 .footer{
   background-color: #000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .footer-links{
@@ -342,24 +346,27 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
  
   .resume{
+
     font-family: 'Roboto', sans-serif;
-    background: #fff;
-    background: url('./cool-background-resume.png'); 
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-  }
- 
   
+    width: auto;
+   
+  }
  
   
   body {
     font-family: 'Roboto', sans-serif;
     background: #fff;
-    background: url('./cool-background-resume.png'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-
+    background:url("./bg6.png") no-repeat center center fixed;
+    position: relative;
+    margin: 0;
     
   }
   
@@ -542,11 +549,23 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
   }
+
+  .resume{
+
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 2000px;
+    width: auto;
+  
+   
+  }
  
 
    
     
-    @media only screen and (min-width:759px) and (max-width:992px) {
+    @media only screen and (min-width:761px) and (max-width:995px) {
         
       .face .coder h1,
       .face .designer h1 {
@@ -558,18 +577,22 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
       }
 
       .resume{
+
         font-family: 'Roboto', sans-serif;
-        background: #fff;
-        background: url('./cool-background-resume.png'); 
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
-        font-size: 18px;
+        height: 1600px;
+        width: auto;
+      
+       
       }
+
+      
 }
    
     
-    @media only screen and (min-width:735px) and (max-width:759) {
+    @media only screen and (min-width:735px) and (max-width:761px) {
       .face .coder h1,
       .face .designer h1 {
         font-size: 18px;
@@ -579,8 +602,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         text-align: center;
       }
 
+      .resume{
+
+        font-family: 'Roboto', sans-serif;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 1400px;
+        width: auto;
+      
+       
+      }
+
 }
-@media only screen and (min-width:634px) and (max-width:735px) {
+@media only screen and (min-width:635px) and (max-width:735px) {
   .face .coder h1,
   .face .designer h1 {
     font-size: 18px;
@@ -590,9 +625,22 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     text-align: center;
   }
 
+  
+  .resume{
+
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 1200px;
+    width: auto;
+  
+   
+  }
+
 }
 
-@media only screen and (min-width:501px) and (max-width:634px) {
+@media only screen and (min-width:501px) and (max-width:635px) {
         
   .face .coder h1,
   .face .designer h1 {
@@ -601,6 +649,18 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-size: 1.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+  }
+
+  .resume{
+
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 1000px;
+    width: auto;
+  
+   
   }
 
 }
@@ -642,15 +702,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     text-align: center;
   }
 
-  .resume{
-    font-family: 'Roboto', sans-serif;
-    background: #fff;
-    background: url('./cool-background-resume.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-   
-  }
+  
 }
 
 @media only screen and (min-width:0px) and (max-width:300px) {

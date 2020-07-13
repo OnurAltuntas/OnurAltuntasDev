@@ -122,12 +122,23 @@ const Aboutme = () => {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
 
 
             </div>
         </div>
 
-        <BottomFooter />
+        
+
+        <BottomFooter/>
 
         </animated.div>
     );

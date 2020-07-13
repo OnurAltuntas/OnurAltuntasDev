@@ -81,7 +81,20 @@ const LandingPage = () => {
                 </div>
             </div>
         </div>
-            <BottomFooter/>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <br></br>
+
+        <BottomFooter/>
 
          
            

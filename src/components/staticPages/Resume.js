@@ -1,8 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
-import phone from '../../assets/res.png';
 import BottomFooter from '..//common/BottomFooter';
-import res from '../../assets/res.png';
+import res from '../../assets/res.pdf';
 
 
 
@@ -19,9 +18,11 @@ const Resume = () => {
 
     });
     return (
-        <animated.div  className="resume" style={fade}>
-           <img alt="phone" src={res}></img>
-           <BottomFooter />
+        <animated.div style={fade, { textAlign: 'center' }}>
+            
+            <iframe src={res} frameborder="0" height="600px" width="100%"></iframe>
+
+            <BottomFooter />
         </animated.div>
     )
 }

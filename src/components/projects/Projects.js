@@ -60,6 +60,23 @@ const Projects = (props) => {
                     </Row>
                 </Container>
                 <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+
                 <BottomFooter/>
             </animated.div>
         )
