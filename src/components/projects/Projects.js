@@ -30,7 +30,7 @@ const Projects = (props) => {
 
         return (
             <animated.div  style={fade}>
-                <Tabs activeTab={activeTab} onChange={(tabId) => setActiveTab(tabId)} ripple>
+                <Tabs className="project-tabs"  activeTab={activeTab} onChange={(tabId) => setActiveTab(tabId)} ripple>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>React</Tab>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Vue</Tab>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Android</Tab>
@@ -82,7 +82,7 @@ const Projects = (props) => {
         )
     } else {
         return (
-            <animated.div className="container center" style={fade} >
+            <animated.div style={{textAlign:"center"}} className="container center" style={fade} >
             <div class="spinner-grow text-primary" role="status">
             <span class="sr-only">Loading...</span>
           </div>
