@@ -4,8 +4,6 @@ import BottomFooter from '..//common/BottomFooter';
 import res from '../../assets/res.png';
 
 
-
-
 const Resume = () => {
 
     const fade = useSpring({
@@ -18,11 +16,13 @@ const Resume = () => {
 
     });
     return (
-        <animated.div style={fade, { textAlign: 'center' }}>
+        <animated.div style={fade,{ textAlign: 'center' }}>
 
-           
-                <iframe style={{ textAlign: 'center' }} src={res} width="100%" height="500px">  </iframe>
-           
+            <div class="container-sm">
+
+                <iframe title="resume" style={{ textAlign: 'center' }} src={res} width="90%" height="600px">  </iframe>
+
+            </div>
 
             <BottomFooter />
         </animated.div>

@@ -5,7 +5,6 @@
 }
 
 
-
 .ajs-message.ajs-custom { color: #31708f;  background-color: #d9edf7;  border-color: #31708f; }
 
 .cards-list {
@@ -77,6 +76,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-size: 18px;
   }
   
+  
 }
 
 
@@ -86,6 +86,13 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  text-align: center;
+ 
+  
+}
+.brand{
+  color: #fff;
+  text-decoration: none;
 }
 
 
@@ -123,10 +130,13 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   color:#fff;
   transition: color 0.3s;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer-links:hover{
   color: red;
   text-decoration: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .collapse{
@@ -143,9 +153,21 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   
 }
 
+.brand:hover{
+  color: red;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
 .header-center h3 {
   text-shadow: 0px 1px 1px #ffffff;
   text-align: center;
+  
+}
+.dasboard-box{
+  border-bottom: 1px ;
+  box-shadow: 0 4px 2px -1px #E5E5E5;
+  
 }
 
 
@@ -363,7 +385,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background:url("./bg6.png") no-repeat center center fixed;
+    /* background:url("./bg6.png") no-repeat center center fixed; */
     position: relative;
     margin: 0;
     
@@ -525,15 +547,10 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
   .about-exp{
     font-size: 36px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
   }
-  .coder-desc{
-    font-size: 18px;
-   color:#000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-  }
+
 
   .project-tabs{
     text-align:center;
@@ -559,6 +576,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     width: auto;
   
    
+  }
+
+  .coder-desc{
+    font-size: 2.9rem;
+    color:#000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .dasboard-img{
+    height: 30rem;
+    width: auto;
   }
  
 
@@ -586,6 +617,11 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
       
        
       }
+      .brand{
+        color: #fff;
+        text-decoration: none;
+        
+      }
 
       
 }
@@ -612,6 +648,11 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
       
        
       }
+      .brand{
+        color: #fff;
+        text-decoration: none;
+      
+      }
 
 }
 @media only screen and (min-width:635px) and (max-width:735px) {
@@ -635,6 +676,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     width: auto;
   
    
+  }
+
+  .brand{
+    color: #fff;
+    text-decoration: none;
+ 
   }
 
 }
@@ -662,6 +709,18 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
    
   }
 
+  .brand{
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+  .dasboard-img{
+    height: 25rem;
+    width: auto;
+    
+  }
+
 }
 
 @media only screen and (min-width:440px) and (max-width:501px) {
@@ -673,6 +732,18 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-size: 1.4rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+  }
+
+  .brand{
+    color: #fff;
+    text-decoration: none;
+    display: none;
+  }
+
+  .dasboard-img{
+    height: 20rem;
+    width: auto;
+    
   }
 
 }
@@ -689,6 +760,17 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
   }
+  .brand{
+    color: #fff;
+    text-decoration: none;
+    display: none;
+  }
+
+  .dasboard-img{
+    height: 20rem;
+    width: auto;
+    
+  }
 }
 @media only screen and (min-width:300px) and (max-width:360px) {
         
@@ -699,6 +781,18 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-size: .8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+  }
+
+  .brand{
+    color: #fff;
+    text-decoration: none;
+    display: none;
+  }
+
+  .dasboard-img{
+    height: 15rem;
+    width: auto;
+    
   }
 
   
@@ -713,6 +807,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-size: .6rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+  }
+
+  .brand{
+    color: #fff;
+    text-decoration: none;
+    display: none;
   }
 }
 

@@ -95,7 +95,7 @@ const Aboutme = () => {
                 )}
            
             
-            <h3 className="about-exp">Skills React.js </h3>
+            <h3 className="about-exp">Skills</h3>
 
             <div className="container-md">
             <div>

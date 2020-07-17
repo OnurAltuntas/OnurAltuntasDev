@@ -9,8 +9,11 @@ import {
   Nav,
   NavItem,
   NavLink,
+  NavbarBrand
 
 } from 'reactstrap';
+import logo from '../../assets/logo.png';
+
 
 import alertify from "alertifyjs"
 
@@ -32,11 +35,12 @@ const Navi = (props) => {
 }
 
   return (
-    <div>
-      <Navbar style={{backgroundColor:'black'}}  light >
-        <NavLink ><Link to="/" className="navlinks">OnurAltuntasDev</Link></NavLink>
+    <div  >
+      <Navbar style={{backgroundColor:'black',height:'50',textAlign:'center'}}  light >
+      <NavbarBrand   href="/"><img src={logo} alt="face" height='80px'></img></NavbarBrand>
+        <NavLink ><Link className="brand" to="/" ><h3   > OnurAltuntasDev</h3></Link></NavLink>
         <NavbarToggler onClick={toggleNavbar}  className="mr-2" style={{backgroundColor:'#fff'}} />
-        <Collapse className='collapse' isOpen={!collapsed} navbar>
+        <Collapse style={{textAlign:'center'}} isOpen={!collapsed} navbar>
           <Nav className="mr-auto" navbar>
            
             <NavItem>
