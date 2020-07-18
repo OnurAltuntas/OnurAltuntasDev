@@ -20,7 +20,7 @@ const Resume = () => {
 
             <div class="container-sm">
 
-                <iframe title="resume" style={{ textAlign: 'center' }} src={res} width="90%" height="600px">  </iframe>
+                <iframe title="resume" style={{ textAlign: 'center' }} src={res} width="90%" height="800px">  </iframe>
 
             </div>
 

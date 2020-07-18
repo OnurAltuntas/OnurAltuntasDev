@@ -17,7 +17,7 @@ const BottomFooter = (props) =>{
                     
                 </ul>
                 <div class="gradient-white">
-                        <a className="back-to-top-link" href="#"><i class="fa fa-arrow-up" aria-hidden="true" style={{ fontSize: '24px', color: 'red' }}></i></a>
+                        <a className="back-to-top-link" href="#"><i class="fa fa-arrow-up" aria-hidden="true" style={{ fontSize: '24px', color: '#2196f3' }}></i></a>
                     </div>
             </div>
                 </FooterSection>
