@@ -19,7 +19,6 @@ const AdminPanel = (props) => {
 
     const handleOnclik = () => {
         if (input.name === user.name && input.password === user.password) {
-            console.log("success")
             let path = `/saveproduct`;
             history.push(path)
         }
@@ -58,7 +57,6 @@ const AdminPanel = (props) => {
 }
 
 const mapStateToProps = (state, ownProps) => {
-    console.log(state)
     const id = "admin";
     const users = state.firestore.data.users;
     const user = users ? users[id] : null
