@@ -32,7 +32,7 @@ const Projects = (props) => {
             <animated.div  style={fade}>
                 <Tabs className="project-tabs"  activeTab={activeTab} onChange={(tabId) => setActiveTab(tabId)} ripple>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>React</Tab>
-                    <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Vue</Tab>
+                    <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Asp</Tab>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Android</Tab>
                 </Tabs>
 
@@ -41,13 +41,13 @@ const Projects = (props) => {
                         {project.filter(item => item.categoryId === String(activeTab)).map(project => (
                             <Col>
                                 <Card inverse>
-                                    <CardImg top width="100%" src={project.image} id="UncontrolledTooltipExample" alt="Card image cap" />
+                                    <img src={project.image} alt="image" height="300" width="350"></img>
                                     <CardImgOverlay style={{ textAlign: 'center' }}>
                                         <CardText>
 
                                         </CardText>
                                     </CardImgOverlay>
-                                    <Button style={{ fontSize: '20px' }} href={project.showLink}>
+                                    <Button style={{ fontSize: '20px',width:"350px" }} href={project.showLink}>
                                         {project.projectName}</Button>
                                 </Card>
 
