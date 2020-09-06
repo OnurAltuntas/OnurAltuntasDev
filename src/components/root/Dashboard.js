@@ -2,7 +2,7 @@ import React from 'react';
 import "../root/App.css"
 import BottomFooter from '../common/BottomFooter';
 import { useSpring, animated } from 'react-spring'
-import dashnobg from '../../assets/dash-nobg.png';
+import dashnobg from '../../assets/dash-nobg1.png';
 
 
 
