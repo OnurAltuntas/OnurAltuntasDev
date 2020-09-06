@@ -36,7 +36,7 @@ const Navi = (props) => {
 
   return (
     <div  >
-      <Navbar style={{backgroundColor:'black',height:'50',textAlign:'center'}}  light >
+      <Navbar style={{backgroundColor:'black',height:'50%',textAlign:'center'}}  light >
       <NavbarBrand   href="/"><img id="neon1" src={logo} alt="face" height='80px'></img></NavbarBrand>
         <NavLink ><Link className="brand" to="/" ><h3 style={{fontSize:'3rem'}}> OnurAltuntasDev</h3></Link></NavLink>
         <NavbarToggler onClick={toggleNavbar}  className="mr-2" style={{backgroundColor:'#fff'}} />

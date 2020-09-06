@@ -67,7 +67,7 @@ const LandingPage = () => {
                     <div class="box one">
                         <div class="date">
                         </div>
-                        <h1>WEBSITE DESIGN DEVELOPING</h1>
+                        <h1>REACT JS POLYNOTES</h1>
                         <div class="poster p1">
                             <h4>✓</h4>
                         </div>
@@ -76,7 +76,7 @@ const LandingPage = () => {
                     <div class="box two">
                         <div class="date">
                         </div>
-                        <h1>MOBILE APP DEVOLOPING</h1>
+                        <h1>REACT NATIVE POLYNOTES</h1>
                         <div class="poster p2" >
                             <h4 >✓</h4>
                         </div>
@@ -85,7 +85,7 @@ const LandingPage = () => {
                     <div class="box three">
                         <div class="date">
                         </div>
-                        <h1>REACT JS AND REACT NATIVE</h1>
+                        <h1>REACT JS MIRKETDICTIONARY</h1>
                         <div class="poster p3">
                             <h4>✓</h4>
                         </div>

@@ -77,6 +77,11 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   
   
 }
+.navbar{
+  backgroundColor:'black',;
+  height:'100%';
+  textAlign:'center';
+}
 
 
 
@@ -506,20 +511,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-weight: 100;
   }
   .one {
-    background: url('https://www.ecyber.co.ke/images/ecyber/web-design-background.jpg');
+    background: url('https://user-images.githubusercontent.com/53194850/91444250-248d0880-e87d-11ea-8af5-bf6b733654c6.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   
   .two {
-    background: url('https://1stwebdesigner.com/wp-content/uploads/2017/11/graphical-background-design-02.jpg');
+    background: url('https://user-images.githubusercontent.com/53194850/91478853-41d7cc00-e8a9-11ea-8431-a939864c4330.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   .three {
-    background: url('https://cumatekintopuz.com.tr/media/images/react.png');
+    background: url('https://user-images.githubusercontent.com/53194850/91441206-7b441380-e878-11ea-9464-8cb73374e89b.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
