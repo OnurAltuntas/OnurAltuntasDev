@@ -2,6 +2,8 @@ import React from 'react';
 import "../root/App.css"
 import BottomFooter from '../common/BottomFooter';
 import { useSpring, animated } from 'react-spring'
+import dashnobg from '../../assets/dash-nobg.png';
+
 
 
 
@@ -26,7 +28,7 @@ const LandingPage = () => {
                 <div class="container">
                     <div class="row">
                         <div style={{ textAlign: 'center' }} class="col">
-                            <img className="dasboard-img" src="http://www.adhamdannaway.com/wp-content/themes/dannaway/images/about-adham-dannaway.jpg" alt="adham dannaway ui designer"></img>
+                            <img className="dasboard-img" src={dashnobg} alt="onuraltuntasdev"></img>
                         </div>
                         <div class="col">
                             <h1 className="coder-desc">I'm a software developer based in Eskisehir, Turkey.

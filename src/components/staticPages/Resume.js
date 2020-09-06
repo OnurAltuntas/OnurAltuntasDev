@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import BottomFooter from '..//common/BottomFooter';
-import res from '../../assets/res.png';
+import res from '../../assets/cv1.png';
 
 
 const Resume = () => {
