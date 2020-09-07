@@ -34,6 +34,7 @@ const Projects = (props) => {
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>React</Tab>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Asp</Tab>
                     <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>Android</Tab>
+                    <Tab className="project-tabs" style={{ textAlign: 'center', fontSize: '20px' }}>WordPress</Tab>
                 </Tabs>
 
                 <Container>

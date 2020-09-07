@@ -21,7 +21,7 @@ const Resume = () => {
             <div class="container-sm">
 
                 <iframe title="resume" style={{ textAlign: 'center' }} src={res} width="90%" height="800px">  </iframe>
-
+                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
             </div>
 
             <BottomFooter />
